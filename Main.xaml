@@ -152,7 +152,7 @@
               <av:Size x:Key="ShapeSize">200,51</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each File" sap:VirtualizedContainerService.HintSize="307,277" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Documents]">
+          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each File" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Documents]">
             <ui:ForEach.Body>
               <ActivityAction x:TypeArguments="x:String">
                 <ActivityAction.Argument>
@@ -189,7 +189,7 @@
                           <av:PointCollection x:Key="ConnectorLocation">390,361.5 390,391.5 330,391.5 330,396.5</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="This helps human to choose if they want to process document now or they want to process document later" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="200,123" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Select Validation?" OptionsString="Local;Orchestrator" Title="Do you want to Process your document now?">
+                      <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="This helps human to choose if they want to process document now or they want to process document later" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="334,333" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Please select Validation Station" OptionsString="Local;Orchestrator" Title="Do you want to Process your document now?">
                         <ui:InputDialog.Result>
                           <OutArgument x:TypeArguments="x:String">[isDocumentProcess]</OutArgument>
                         </ui:InputDialog.Result>
@@ -549,7 +549,7 @@
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">0,324.5</av:Point>
+          <av:Point x:Key="ShapeLocation">0,354.5</av:Point>
           <av:Size x:Key="ShapeSize">200,51</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -565,7 +565,7 @@
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">0,264.5</av:Point>
+          <av:Point x:Key="ShapeLocation">10,274.5</av:Point>
           <av:Size x:Key="ShapeSize">200,51</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
